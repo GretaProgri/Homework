@@ -3,8 +3,8 @@ package homework;
 public class Subtraction {
 	public static void main(String[] args) {
 
-		int result = difference21(19);
-		System.out.println(result);
+		int diffTotal = difference21(19);
+		System.out.println(diffTotal);
 
 	}
 
