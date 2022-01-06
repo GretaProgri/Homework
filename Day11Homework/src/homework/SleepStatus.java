@@ -3,8 +3,8 @@ package homework;
 public class SleepStatus {
 
 	public static void main(String[] args) {
-		boolean result = sleepIn(false, false);
-		System.out.println(result);
+		boolean amISleeping= sleepIn(false, false);
+		System.out.println(amISleeping);
 	}
 
 	public static boolean sleepIn(boolean isWeekday, boolean isVacation) {
