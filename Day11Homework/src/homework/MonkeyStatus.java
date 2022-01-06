@@ -2,20 +2,18 @@ package homework;
 
 public class MonkeyStatus {
 	public static void main(String[] args) {
-		boolean result = monkeyTrouble(true, true);
-		System.out.println(result);
+		boolean areWeInTrouble = monkeyTrouble (true, true);
+		System.out.println(areWeInTrouble);
 
 	}
 
 	public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
 		boolean result = false;
-		{
-			if (aSmile == bSmile) {
-				result = true;
-			}
-			return result;
+		
+		if (aSmile == bSmile) {
+		result = true;
 		}
-
+		return result;
 	}
 
 }
