@@ -10,7 +10,7 @@ public class DoubleTotal {
 
 	public static int sumDouble(int valueOne, int valueTwo) {
 
-		int result = valueOne + valueTwo;
+		int myTotal = valueOne + valueTwo;
 		if (valueOne == valueTwo) {
 			myTotal = myTotal * 2;
 
